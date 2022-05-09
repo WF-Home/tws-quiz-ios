@@ -1,0 +1,1066 @@
+{
+    "questions": [
+        {
+          "id": 1,
+          "question": "You open your eyes and you're under a tall, old tree. Its leaves are swaying, even falling with the wind. When you look up at the sky, what do you see? Day time or night time?",
+          "answers": [
+            {
+              "answer": "Day time",
+              "leads_to": 2
+            },
+            {
+              "answer": "Night time",
+              "leads_to": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "You see clouds as soft as cotton, with streaks of golden rays peeking through. Barefoot, you walk on the grass. As you walk on, you stumble upon a mysterious door. You open it, and to your surprise, the season is different on the other side. Is it spring or fall?",
+          "answers": [
+            {
+              "answer": "Spring",
+              "leads_to": 4
+            },
+            {
+              "answer": "Fall",
+              "leads_to": 5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "You stumble upon a mysterious door that seems to be calling you. You open it, and to your surprise, the season is different on the other side. Summer or winter?",
+          "answers": [
+            {
+              "answer": "Summer",
+              "leads_to": 6
+            },
+            {
+              "answer": "Winter",
+              "leads_to": 7
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "You enter through the door, and it is spring. Your entire field of vision is bathing in the sun's golden glow. It feels like a moment of celebration. All around you are flowers in a smattering of color. Are they: Growing or blooming?",
+          "answers": [
+            {
+              "answer": "Growing",
+              "leads_to": 8
+            },
+            {
+              "answer": "Blooming",
+              "leads_to": 9
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "You enter through the door, and it is fall. The chilly bite of the morning air welcomes you. You're in the same place, just tinged in burnt colors. There's a bonfire nearby, and you stay there, craving for rest. The past has hurt and left you weary. You have been carrying your wounds for too long. Do you: Heal completely or keep your scars?",
+          "answers": [
+            {
+              "answer": "Heal completely",
+              "leads_to": 10
+            },
+            {
+              "answer": "Keep your scars",
+              "leads_to": 11
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "question": "You enter through the door, and it's summer. The grass is downy soft, and the sun is hitting your face. You close your eyes and take a deep breath, feeling life vibrating from every leaf, petal, and creature. You try to remember this moment, committing every detail and sensation to memory. You lay down by a bed of flowers and you see something on your wrist. Tattoo or a bracelet?",
+          "answers": [
+            {
+              "answer": "Tattoo",
+              "leads_to": 12
+            },
+            {
+              "answer": "Bracelet",
+              "leads_to": 13
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "question": "You enter through the door, and it's winter. A gentle hush cloaks the land, so peaceful that it's tempting to just stay. You decide to rest for a bit. After all, a pause doesn't always mean you've stopped moving. In the middle of the snow, as if by magic, you notice flowers growing swiftly. Do you: Watch them grow, or pick one to keep?",
+          "answers": [
+            {
+              "answer": "Watch them grow",
+              "leads_to": 14
+            },
+            {
+              "answer": "Pick one to keep",
+              "leads_to": 15
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "question": "The flowers are blooming. All the petals are wide-open, embracing the light. You inhale and smell the life happening around you. As you close your eyes, you hear a faint sound, growing louder. The croon of a bird, or the tick of a pocketwatch?",
+          "answers": [
+            {
+              "answer": "The croon of a bird",
+              "leads_to": 16
+            },
+            {
+              "answer": "The Tick of a pocketwatch",
+              "leads_to": 17
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "question": "All around you are buds, just coming into being. You cheer them on. They are not yet there, but they are on their way. You smile, reminded that beginnings are always beautiful. You yourself feel like a seed taking root or a flower seeking the light.",
+          "answers": [
+            {
+              "answer": "A seed taking root",
+              "leads_to": 18
+            },
+            {
+              "answer": "A flower seeking the light",
+              "leads_to": 19
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "question": "A tired soul deserves a fresh start. You realize that you are free to stay & rest for as long as you need. Healing is necessary, & you promise to take your time. You warm your hand by putting it in your back pocket, but you pull something out instead. A note or a photograph?",
+          "answers": [
+            {
+              "answer": "A note",
+              "leads_to": 20
+            },
+            {
+              "answer": "A photograph",
+              "leads_to": 21
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "question": "Scars are the keeper of lessons and memories. Remembering where you came from reminds you of who you were, who you are, and how far you've come. As you pull yourself away from these thoughts, you notice an ornate box on the ground. You pick it up, and you feel something inside. Is it: light or heavy?",
+          "answers": [
+            {
+              "answer": "Light",
+              "leads_to": 22
+            },
+            {
+              "answer": "Heavy",
+              "leads_to": 23
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "question": "A tattoo of a flower in full bloom is etched onto the hill of your wrist, a memory from better days. You wonder if you'll ever feel the triumph of being in bloom again. Lost in thought, you notice something by the trunk of a tree nearby. Is it: a bag or a vase?",
+          "answers": [
+            {
+              "answer": "A bag",
+              "leads_to": 24
+            },
+            {
+              "answer": "A vase",
+              "leads_to": 25
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "question": "Underneath the bracelet, you see a faint mark of what used to be a wound, now fully healed. Healing asks you to retreat, look inward, and move at your own pace, so you must have taken your time to get here. As you realize this, you notice an ornate box on the ground. Inside is: a photograph or a note?",
+          "answers": [
+            {
+              "answer": "A photograph",
+              "leads_to": 26
+            },
+            {
+              "answer": "A note",
+              "leads_to": 27
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "question": "You watch the flowers growing in the middle of the cold. You relish the fact that life can thrive, even in desolate places. You cheer them on. They are not yet there, but they are on their way. Next to the flowers, you notice a box, poked with holes. You pick it up and feel that something is inside. Is it: moving or still?",
+          "answers": [
+            {
+              "answer": "Moving",
+              "leads_to": 28
+            },
+            {
+              "answer": "Still",
+              "leads_to": 29
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "question": "You pluck a flower and thank the earth for such a beautiful token of your journey. As if in response, a butterfly emerges and beckons you to follow it. It leads you to a river with water that sparkles in the sun. You see a box near the stream and you pick it up. Something is inside. Is it: moving or still?",
+          "answers": [
+            {
+              "answer": "Moving",
+              "leads_to": 30
+            },
+            {
+              "answer": "Still",
+              "leads_to": 31
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "question": "Hidden in the bushes, you find the most beautiful pocket watch on the ground. It seems like it has belonged to many people before you. You hold your breath as you open the cover. There is a flower etched at the clock face. Poppy or daisy? ",
+          "answers": [
+            {
+              "answer": "Poppy",
+              "leads_to": 32
+            },
+            {
+              "answer": "Daisy",
+              "leads_to": 33
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "question": "You look around and notice a small bird, pecking at a worm by one particularly cheerful flower patch of Marigold or Pansies",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 34
+            },
+            {
+              "answer": "Pansies",
+              "leads_to": 35
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "question": "You feel like a seed, newly planted. Life has been difficult, but you're starting over. You feel comforted in seeing that even nature is beginning again, just like you. You feel a kinship towards the buds of your favorite flower, and you reach over to touch them. Marigold or Pansy?",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 36
+            },
+            {
+              "answer": "Pansy",
+              "leads_to": 37
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "question": "You are thriving in full-bloom. You've crawled out of the darkness and now, you're facing the sun. You feel a kinship towards the buds of your favorite flower, and you reach over to touch them. Poppies or daisies?",
+          "answers": [
+            {
+              "answer": "Poppies",
+              "leads_to": 38
+            },
+            {
+              "answer": "Daisies",
+              "leads_to": 39
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "question": "It's a note you wrote years ago as a reminder for yourself: \"When you're lost, don't forget to look up\". You lift your head and see fluffy clouds drifting slowly. You see one that's shaped so much like a flower you love. Marigold or pansy?",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 40
+            },
+            {
+              "answer": "Pansy",
+              "leads_to": 41
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "question": "It's a photo of you when you were younger. You are sitting by the window of a cafe. The sun hits your face beautifully. Behind you is a dock, with boats all lined up. You are wearing a bright red coat with a flower stitched on your chest. Poppy or daisy?",
+          "answers": [
+            {
+              "answer": "Poppy",
+              "leads_to": 42
+            },
+            {
+              "answer": "Daisy",
+              "leads_to": 43
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "question": "You open the box and you find a key with a four-leaf clover handle. You look around, searching for doors to open and you come across a wooden gate. You open it and see a garden of bright flowers. Poppy or Daisy?",
+          "answers": [
+            {
+              "answer": "Poppy",
+              "leads_to": 44
+            },
+            {
+              "answer": "Daisy",
+              "leads_to": 45
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "question": "You open it and a monarch butterfly comes out. It makes circles around you, as if in gratitude for being set free. You follow its flight and it brings you to a secret garden, with a wooden gate. You enter it and find an expanse of land filled with bright flowers. Marigold or Pansy?",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 46
+            },
+            {
+              "answer": "Pansy",
+              "leads_to": 47
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "question": "It's a tiny bag of seeds, and you feel affirmed by such an omen. This is exactly what you feel like - newly planted and still on its way. Life has been difficult, but you're starting over. Is it seeds of: Marigold or Pansy?",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 48
+            },
+            {
+              "answer": "Pansy",
+              "leads_to": 49
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "question": "It's a basket of flowers in full bloom, tied with a pretty ribbon. In a way, you and this flower share something important. Crawling out of the darkness, you're now facing the sun. Is it a basket of: Poppy or Daisy?",
+          "answers": [
+            {
+              "answer": "Poppy",
+              "leads_to": 50
+            },
+            {
+              "answer": "Daisy",
+              "leads_to": 51
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "question": "It's a note you wrote years ago as a reminder for yourself: \"When you're lost, don't forget to look up\". You lift your head and see fluffy clouds drifting slowly. You see one that's shaped so much like a flower you love. Marigold or Pansy?",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 52
+            },
+            {
+              "answer": "Pansy",
+              "leads_to": 53
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "question": "It's a photo of you when you were younger. You are sitting by the window of a cafe. The sun hits your face beautifully. Behind you is a dock, with boats all lined up. You are wearing a bright red coat with a flower stitched on your chest. Poppy or Daisy?",
+          "answers": [
+            {
+              "answer": "Poppy",
+              "leads_to": 54
+            },
+            {
+              "answer": "Daisy",
+              "leads_to": 55
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "question": "You open the box and you find a key with a four-leaf clover handle. You look around, searching for doors to open and you come across a wooden gate. You open it and see a garden of bright flowers. Poppies or Daisies?",
+          "answers": [
+            {
+              "answer": "Poppies",
+              "leads_to": 56
+            },
+            {
+              "answer": "Daisies",
+              "leads_to": 57
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "question": "You open it and a small bird comes out. It chirps in glee and gratitude for its freedom. You follow its flight and it brings you to a secret garden, with a wooden gate. You enter it and find an expanse of land filled with bright flowers. Marigolds or Pansies?",
+          "answers": [
+            {
+              "answer": "Marigold",
+              "leads_to": 58
+            },
+            {
+              "answer": "Pansies",
+              "leads_to": 59
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "question": "You open it and find the most beautiful pocket watch inside. It seems like it has belonged to many people before you. You hold your breath as you open the cover. There's a flower etched at the clock's face. Poppy or Daisy?",
+          "answers": [
+            {
+              "answer": "Poppy",
+              "leads_to": 60
+            },
+            {
+              "answer": "Daisy",
+              "leads_to": 61
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "question": "You open it and a small bird comes out. It chirps in glee and gratitude for its freedom. You follow its flight and it brings you to a secret garden, with a wooden gate. You enter it and find an expanse of land filled with bright flowers. Marigolds or Pansies?",
+          "answers": [
+            {
+              "answer": "Marigolds",
+              "leads_to": 62
+            },
+            {
+              "answer": "Pansies",
+              "leads_to": 63
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "question": "You've always liked poppies. They bring you peace and calm amidst the chaos. You take the pocket watch and from a distance, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 64
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 65
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "question": "On the watch face is a daisy, the symbol of innocence. Their crowns look like suns against a bright, clear sky. Beyond the horizon, the field is vast, beckoning you. Yet, you feel completely at peace where you are. Will you: rest or run?",
+          "answers": [
+            {
+              "answer": "Rest",
+              "leads_to": 67
+            },
+            {
+              "answer": "Run",
+              "leads_to": 66
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "question": "You are drawn to the joy and optimism of the marigolds. Seeing them has always brought you luck. You decide to pick some to take with you on your journey. Beyond the flowers, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: Sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 64
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 65
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "question": "You smile, grateful for the pansies' whimsical charm. You pick some petals and press them onto the pages of the diary in your back pocket, as a reminder of today. The small bird begins to fly away and your eyes follow it to the vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: Sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 64
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 69
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "question": "You are drawn to the joy and optimism of the marigolds. Seeing them has always brought you luck. You decide to pick some to take with you on your journey. The field is vast and there's so much to explore. Yet, you feel completely at peace where you are. Will you: rest or run?",
+          "answers": [
+            {
+              "answer": "Rest",
+              "leads_to": 71
+            },
+            {
+              "answer": "Run",
+              "leads_to": 66
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "question": "You gently caress the small petals of the pansies. You can't wait to see them bloom and show off their whimsical charm. You stand up and from a distance, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: Sail or Stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 68
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 73
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "question": "You've always liked poppies. They bring you peace and calm amidst the chaos. You pick some petals and keep them in the small vials you always carry around. You've heard they're good for healing. Beyond this patch, the field is vast, yet it's tempting to stay. Will you: rest for a while, or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 67
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 66
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "question": "You gently caress the small daisies and thank them for their purity and patience. In their simple beauty, daisies are never too loud, never asking for too much attention. Yet they brighten everything up. You look up at the sky, take a deep breath and: rest for a while or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 71
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 66
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "question": "You are drawn to the joy and optimism of the marigolds. Seeing them has always brought you luck. Maybe in cloud form, it's just as good an omen. You see another cloud that looks like a boat, and you imagine yourself riding the waves, off to see the wider world. Do you: let your mind set sail or find more answers in the clouds?",
+          "answers": [
+            {
+              "answer": "Let your mind set sail",
+              "leads_to": 68
+            },
+            {
+              "answer": "Find more answers in the clouds",
+              "leads_to": 73
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "question": "Even through the clouds, you can see the pouty face of a pansy. Seeing this flower has always made you smile. You see another cloud that looks like a boat, and you can imagine yourself riding through the waves, off to see the wider world. Do you: Let your mind set sail, or stay and find more answers in the clouds?",
+          "answers": [
+            {
+              "answer": "Let your mind set sail",
+              "leads_to": 72
+            },
+            {
+              "answer": "Stay and find more answers in the clouds",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "question": "On your coat is a poppy, the symbol of remembrance. You smile at your photo and wish you could go back to the simplicity of a young life. You look at the docks and wonder what your younger self did that day. Sail off or stay?",
+          "answers": [
+            {
+              "answer": "Sail off",
+              "leads_to": 68
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 73
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "question": "On your coat is a daisy, the symbol of innocence. You smile at your photo and wish you could go back to the simplicity of a young life. You look at the docks and wonder what your younger self did that day. You: took a rest or went for a run?",
+          "answers": [
+            {
+              "answer": "Took a rest",
+              "leads_to": 75
+            },
+            {
+              "answer": "Went for a run",
+              "leads_to": 78
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "question": "You've always liked poppies. They bring you peace and calm amidst the chaos. You pick some petals and press them onto the pages of the notebook in your back pocket. Beyond this patch, there's still so much to see. Yet, it's tempting to stay in this crimson field. Will you: rest for a while or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 67
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 70
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "question": "You find a garden of daisies - pure, patient, and simple. Their crowns look like suns against a bright, clear sky. As you marvel at the daisy's beauty, you decide to take one for the road. The field before you is vast and there's so much to explore. Yet, you feel completely at peace where you are. Will you: rest for a while or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 71
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 74
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "question": "You find a garden of marigold, and it exudes joy and optimism. Seeing them has always brought you luck. You decide to pick some to take with you on your journey. The field before you is vast and there's so much to explore. Yet, you feel completely at peace where you are. Will you: rest for a while or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 71
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 74
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "question": "You gently caress the small petals of the pansies. You can't wait to see them bloom and show off their whimsical charm. You stand up and from a distance, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Sail or Stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 72
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "question": "You are drawn to the joy & optimism of the marigolds. Seeing them has always brought you luck. As seeds, they give you hope for the future. The horizon before you is vast & there's so much to explore. Yet, you feel completely at peace where you are. Will you: rest for a while or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for while",
+              "leads_to": 67
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 70
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "question": "You put the pansy seeds in your pocket, promising to nurture them. You can't wait to see them bloom and show off their whimsical charm. From a distance, you see a vast sea at the horizon. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 72
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "question": "You've always liked poppies. They bring you peace and calm amidst the chaos. You press some of them them onto the pages of the notebook you keep in your back pocket Beyond this field, there's still so much to see. Yet, it's tempting to stay under the shade of this tree. Will you: rest for a while or run towards the open air",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 67
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 66
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "question": "You gently caress the small daisies and thank them for their purity and patience. In their simple beauty, daisies are never too loud, never asking for too much attention. Yet they brighten everything up. You sit down under the shade of the tree and look up at the sky. You then: take a rest or go for a run?",
+          "answers": [
+            {
+              "answer": "Take a rest",
+              "leads_to": 67
+            },
+            {
+              "answer": "Go for a run",
+              "leads_to": 74
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "question": "You are drawn to the joy and optimism of the marigolds. Seeing them has always brought you luck. Maybe in cloud form, it's just as good an omen. You see another cloud that looks like a boat, and you imagine yourself riding the waves, off to see the wider world. Do you: Sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 68
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 73
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "question": "Even through the clouds, you can see the pouty face of a pansy. Seeing this flower has always made you smile. You see another cloud that looks like a boat, and you can imagine yourself riding through the waves, off to see the wider world. Do you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 72
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "question": "On your coat is a poppy, the symbol of remembrance. You smile at your photo and wish you could go back to the simplicity of a young life. You look at the docks and wonder what your younger self did that day. Did you: Sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 68
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 73
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "question": "On your coat is a daisy, the symbol of innocence. You smile at your photo and wish you could go back to the simplicity of a young life. You look at the docks and wonder what your younger self did that day. Did you: Rest or run?",
+          "answers": [
+            {
+              "answer": "Rest",
+              "leads_to": 75
+            },
+            {
+              "answer": "Run",
+              "leads_to": 78
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "question": "You've always liked poppies. They bring you peace and calm amidst the chaos. You pick some petals and press them onto the pages of the notebook in your back pocket. From a distance, you see a vast sea at the horizon. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 68
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "question": "You find a garden of daisies - pure, patient, and simple. Their crowns look like suns against a bright, clear sky. As you marvel at the daisy's beauty, you decide to take one for the road. From a distance, you see a vast sea at the horizon. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 76
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "question": "You find a garden of marigold, and it exudes joy and optimism. Seeing them has always brought you luck. You decide to pick some to take with you on your journey. Beyond this field, there's still so much to see. Yet, it's tempting to stay under the shade of this tree. Will you: rest for a while, or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 78
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 79
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "question": "You gently caress the small petals of pansies, still growing. You can't wait to see them bloom and show off their whimsical charm. You stand up and from a distance, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 76
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "question": "You've always liked poppies. They bring you peace and calm amidst the chaos. You take the pocket watch and from a distance, there's still so much to see. Yet, it's tempting to stay and take your time. Will you: rest for a while, or run towards the open air?",
+          "answers": [
+            {
+              "answer": "Rest for a while",
+              "leads_to": 71
+            },
+            {
+              "answer": "Run towards the open air",
+              "leads_to": 74
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "question": "On the watch face is a daisy, the symbol of innocence. Their crowns look like suns against a bright, clear sky. Beyond the horizon, the field is vast, beckoning you. Yet, you feel completely at peace where you are. Will you: take a rest or go for a run",
+          "answers": [
+            {
+              "answer": "Take a rest",
+              "leads_to": 75
+            },
+            {
+              "answer": "Go for a run",
+              "leads_to": 78
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "question": "You gently caress the small petals of pansies, still growing. You can't wait to see them bloom and show off their whimsical charm. You stand up and from a distance, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 68
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 73
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "question": "You find a garden of marigold, and it exudes joy and optimism. Seeing them has always brought you luck. You decide to pick some to take with you on your journey. You stand up and from a distance, you see a vast sea. The water calls out to you, yet you feel completely at ease on land. Will you: sail or stay?",
+          "answers": [
+            {
+              "answer": "Sail",
+              "leads_to": 72
+            },
+            {
+              "answer": "Stay",
+              "leads_to": 77
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "question": "You decide to sail and set off to new horizons. The world is ready for you. You open your arms, eyes, mind, and heart to take it all in.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 80
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "question": "You decide to stay. There is much land to see, and you're ready to reap what the earth offers you. You open yourself to both the pleasures and challenges of living. This is where everything changes.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 80
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "question": "With wide eyes and a hopeful heart, you run as far as you can, eager to welcome what lies on the other side. The world is vibrating with stories, lessons, and experiences. It's all yours for the taking.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 80
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "question": "You take a rest, knowing that you'll need it for the long journey ahead. Before you go, you prepare to receive the bounty of life you are about to reap with care and respect. Today, you rest, tomorrow, you thrive.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 80
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "question": "You answer the call of the sea and sail away. You are about to turn your dreams into memories. The clouds are opening up. The sun is guiding you. It's time to discover and collect the secrets of the world.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 81
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "question": "You decide to be right where you are, savoring what is before you. You commit everything to memory, never wanting to forget how a full life feels like. You have been offered to live a dream and you take it. Barefoot you stand still, being one with the world.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 81
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "question": "You run as fast as you can to see what's there for you. You're feeling everything, and your heart fills up to contain this beautiful memory. The sun beams in celebration of your freedom. The world is here and it's yours for the taking.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 81
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "question": "You sit down and take a deep breath. You inhale and accept the gifts of this land. You exhale and dispel what weighs you down. You let go of what you don't need to make space for more memories. Each breath you take fills you up. Take your time.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 81
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "question": "You've heard it somewhere - to escape darkness, you must run to the light. You board the ship & set sail to a new land. You're capable of creating strong memories that overpower painful ones. You are on your way to unchartered territory, where a new you is waiting to be discovered.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 82
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "question": "You decide to stay and nurture yourself where you are. You are retreating for a while. You lie down on soft grass and smile to yourself. You may have stayed, but a journey still begins here: the journey back home to you.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 82
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "question": "You run as fast as you can to fill yourself with beauty and light. The farther you go, the closer you are to your stronger, wiser, kinder self. You may have lost your way before, but now you know - you are on your way home.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 82
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "question": "You sit down and take a deep breath. You are reclaiming your space. To rest is to tend to your wounds, and in healing, you learn to love yourself.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 82
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "question": "You decide to sail away. You are beginning again and starting anew. You expand as you discover new lands and stories. You are limitless. Done with rest - it's time to grow.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 83
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "question": "You decide to grow alongside the flowers of this land. Like a seed, you plant yourself in one place and take your time to grow. No need to rush. Life is not waiting for you. It's waiting for the best version of you. You are taking root to be one with the world again.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 83
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "question": "You run as fast as you can to fill yourself with beauty and light. The farther you go, the closer you are to your stronger, wiser, kinder self. You may have lost your way before, but now you know - you are on your way home.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 83
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "question": "You decide to rest and take your time. Like a seed, you want to be firm and take root. There is beauty in the unfolding, and you're just about ready to blossom. But for now, you patiently wait for the moment.",
+          "answers": [
+            {
+              "answer": "Continue",
+              "leads_to": 83
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "question": "bloom",
+          "answers": []
+        },
+        {
+          "id": 81,
+          "question": "keep",
+          "answers": []
+        },
+        {
+          "id": 82,
+          "question": "heal",
+          "answers": []
+        },
+        {
+          "id": 83,
+          "question": "grow",
+          "answers": []
+        }
+    ]
+}
