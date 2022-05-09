@@ -12,7 +12,7 @@ let questionViewReducer = Reducer<QuestionViewState, QuestionViewAction, AppEnvi
         return .none
         
     case .resetQuiz:
-        return Effect(value: .setActiveQuestion(1))
+        return Effect.merge([Effect(value: .setActiveQuestion(1)), Effect(value: .appAction(.updateAppBackground("TWSHeaderPlain")))])
         
     case .selectAnswer(let nextQuestion):
         return Effect(value: .setActiveQuestion(nextQuestion))

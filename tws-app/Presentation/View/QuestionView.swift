@@ -27,7 +27,6 @@ struct QuestionView: View {
                         }
                     )
                     .cornerRadius(7)
-                    .transition(.slide)
                 } else {
                     ResultView(
                         result: activeQuestion.text,

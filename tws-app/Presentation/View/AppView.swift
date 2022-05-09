@@ -15,19 +15,20 @@ struct AppState: Equatable {
 struct AppView: View {
     
     let store: Store<AppState, AppAction>
-    
     var body: some View {
         WithViewStore(self.store) { viewStore in
             VStack {
                 Image("TWSHeaderTitle")
                     .resizable()
                     .scaledToFit()
-                    .padding(.top, 30)
-                QuestionView(store: store.scope(state: \.questionViewState, action: AppAction.questionViewAction))
-                    .onAppear {
-                        viewStore.send(.fetchQuestions)
+                    .shadow(color: Color.black, radius: 3, x: 1, y: 1)
+                    if viewStore.questionViewState.questions != nil {
+                        QuestionView(store: store.scope(state: \.questionViewState, action: AppAction.questionViewAction))
+                    } else {
+                        LandingView(action: { viewStore.send(.fetchQuestions) })
                     }
             }
+            .foregroundColor(Color("defaultText"))
             .padding(.horizontal, 30)
             .padding(.bottom, 50)
             .background(
@@ -35,6 +36,10 @@ struct AppView: View {
                     .resizable()
                     .scaledToFill()
             )
+            .onAppear {
+                UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+                AppDelegate.orientationLock = .portrait
+            }
         }
     }
 }

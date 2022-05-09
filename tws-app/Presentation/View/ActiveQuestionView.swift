@@ -12,23 +12,25 @@ struct ActiveQuestionView: View {
     
     var body: some View {
         GeometryReader { proxy in
-            VStack(spacing: 10) {
+            VStack {
                 Text(question.text)
-                    .foregroundColor(Color.white)
+                    .font(.system(size: 15, weight: .regular, design: .default))
                     .frame(maxWidth: .infinity, minHeight: proxy.size.height * 0.7)
                     .padding(.horizontal, 15)
                     .cornerRadius(5)
                 GeometryReader { answerProxy in
-                    VStack {
+                    VStack(spacing: 15) {
                         if let answers = question.answers {
                             ForEach(answers, id: \.self) { answer in
-                                Button(answer.text, action: {selectAnswer(answer.leadsTo)})
-                                    .foregroundColor(Color.white)
-                                    .frame(maxWidth: answerProxy.size.width * 0.8, maxHeight: 30)
-                                    .padding(.vertical, 5)
-                                    .background(Color("background"))
-                                    .cornerRadius(5)
-                                    .shadow(color: Color.black, radius: 5, x: 1, y: 1)
+                                Button(action: {selectAnswer(answer.leadsTo)}) {
+                                    Text(answer.text)
+                                        .font(.system(size: 15, weight: .regular, design: .default))
+                                        .frame(maxWidth: answerProxy.size.width * 0.9, maxHeight: 30)
+                                        .padding(.vertical, 5)
+                                        .background(Color("background"))
+                                        .cornerRadius(5)
+                                        .shadow(color: Color.black, radius: 5, x: 1, y: 1)
+                                }
                             }
                         }
                     }
