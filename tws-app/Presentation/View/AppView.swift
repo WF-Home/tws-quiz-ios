@@ -10,6 +10,17 @@ import SwiftUI
 struct AppState: Equatable {
     var questionViewState = QuestionViewState()
     var appBackground = "TWSHeaderPlain"
+    var quiz: Quiz?
+    var quizStatus: Status = .quizNotStarted
+    var curiosities: [Curiosity]?
+    var result: Curiosity?
+    var isLoading = true
+    
+    enum Status {
+        case quizNotStarted
+        case quizInProgress
+        case displayResult
+    }
 }
 
 struct AppView: View {
@@ -18,19 +29,39 @@ struct AppView: View {
     var body: some View {
         WithViewStore(self.store) { viewStore in
             VStack {
+                Spacer()
                 Image("TWSHeaderTitle")
                     .resizable()
                     .scaledToFit()
                     .shadow(color: Color.black, radius: 3, x: 1, y: 1)
-                    if viewStore.questionViewState.questions != nil {
-                        QuestionView(store: store.scope(state: \.questionViewState, action: AppAction.questionViewAction))
-                    } else {
-                        LandingView(action: { viewStore.send(.fetchQuestions) })
+                GeometryReader { proxy in
+                    Group {
+                        switch viewStore.state.quizStatus {
+                        case .quizNotStarted:
+                            LandingView(action: { viewStore.send(.startQuiz) }, isLoading: viewStore.isLoading)
+                                .onAppear {
+                                    viewStore.send(.fetchQuiz)
+                                }
+                        case .quizInProgress:
+                            QuestionView(store: store.scope(state: \.questionViewState, action: AppAction.questionViewAction))
+                        case .displayResult:
+                            if let curiosity = viewStore.result {
+                                ResultView(
+                                    curiosity: curiosity,
+                                    resetQuiz: { viewStore.send(.startQuiz) },
+                                    updateBackground: { background in
+                                        viewStore.send(.updateAppBackground(background))
+                                    }
+                                )
+                            }
+                        }
                     }
+                    .frame(width: proxy.size.width, height: proxy.size.height * 0.85)
+                }
+                Spacer()
             }
             .foregroundColor(Color("defaultText"))
-            .padding(.horizontal, 30)
-            .padding(.bottom, 50)
+            .padding(.horizontal, 25)
             .background(
                 Image(viewStore.appBackground)
                     .resizable()

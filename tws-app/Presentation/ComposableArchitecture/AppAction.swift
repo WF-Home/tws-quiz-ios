@@ -7,7 +7,9 @@
 
 enum AppAction: Equatable {
     case questionViewAction(QuestionViewAction)
-    case didFetchQuestions
-    case fetchQuestions
+    case didFetchQuiz(Result<Quiz, Failure>)
+    case fetchQuiz
+    case getResult(Int)
+    case startQuiz
     case updateAppBackground(String)
 }

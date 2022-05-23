@@ -24,10 +24,10 @@ struct tws_app: App {
     }
     
     func appEnvironment() -> AppEnvironment {
-        let questionsRepository = QuestionsRepository()
+        let firebaseRepository = FirebaseRepository()
         return AppEnvironment(
             mainQueue: .main,
-            questionsRepository: questionsRepository
+            apiRepository: firebaseRepository
         )
     }
     
@@ -36,21 +36,20 @@ struct tws_app: App {
 
 final class AppEnvironment {
     var mainQueue: AnySchedulerOf<DispatchQueue>
-    private let questionsRepository: QuestionsRepositoryType
+    private let apiRepository: APIRepositoryType
     
     init(
         mainQueue: AnySchedulerOf<DispatchQueue>,
-        questionsRepository: QuestionsRepositoryType
+        apiRepository: APIRepositoryType
     ) {
         self.mainQueue = mainQueue
-        self.questionsRepository = questionsRepository
+        self.apiRepository = apiRepository
     }
     
-    lazy var fetchQuestionsUseCase: FetchQuestionsUseCaseType = FetchQuestionsUseCase(
-        questionsRepository: questionsRepository
-    )
+    lazy var fetchQuizUseCase: FetchQuizUseCaseType = FetchQuizUseCase(repository: apiRepository)
 }
 
+// Locks app into portrait mode only. Will remove one landscape layout is created
 class AppDelegate: NSObject, UIApplicationDelegate {
     static var orientationLock = UIInterfaceOrientationMask.all
     

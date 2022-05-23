@@ -4,8 +4,16 @@
 //
 //  Created by Wiljay Flores on 2022-05-08.
 //
-struct Questions: Codable {
+struct Quiz: Codable, Equatable {
     var questions: [Question]
+    var curiosities: [Curiosity]
+    
+    enum CodingKeys: String, CodingKey {
+        case questions
+        case curiosities = "quiz-results"
+    }
+    
+    struct Failure: Error, Equatable {}
 }
 
 struct Question: Codable, Equatable {

@@ -18,7 +18,7 @@ let questionViewReducer = Reducer<QuestionViewState, QuestionViewAction, AppEnvi
         return Effect(value: .setActiveQuestion(nextQuestion))
         
     case .setActiveQuestion(let activeQuestion):
-        state.activeQuestion = state.questions?.first(where: { $0.id == activeQuestion })
+        state.activeQuestion = state.questions.first(where: { $0.id == activeQuestion })
         return .none
     }
 }

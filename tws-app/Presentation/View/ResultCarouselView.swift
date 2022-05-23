@@ -6,20 +6,19 @@
 //
 import SwiftUI
 
+enum CarouselItem: Int, CaseIterable {
+    case title
+    case mantra
+}
+
 struct ResultCarouselView: View {
-    
-    enum CarouselItem: Int {
-        case title
-        case mantra
-        case invalid
-    }
     
     private let curiosity : Curiosity
     private let carouselItem: CarouselItem
     
-    init(curiosity: Curiosity, carouselIndex: Int) {
+    init(curiosity: Curiosity, carouselItem: CarouselItem) {
         self.curiosity = curiosity
-        self.carouselItem = CarouselItem(rawValue: carouselIndex) ?? CarouselItem.invalid
+        self.carouselItem = carouselItem
     }
     
     var body: some View {
@@ -30,12 +29,10 @@ struct ResultCarouselView: View {
                     titleView(curiosity: curiosity, badgeWidth: proxy.size.width * 0.6)
                     case .mantra:
                         mantraView(curiosity: curiosity)
-                    case .invalid:
-                        EmptyView()
                 }
             }
-            .frame(maxWidth: .infinity, minHeight: proxy.size.height * 0.8)
-            .background(curiosity.color)
+            .frame(maxWidth: .infinity, minHeight: proxy.size.height * 0.9)
+            .background(Color("\(curiosity.shortID)Theme"))
             .padding(.horizontal, 15)
             .cornerRadius(7)
             .shadow(color: Color.black, radius: 5, x: 1, y: 1)
@@ -46,7 +43,7 @@ struct ResultCarouselView: View {
         return VStack {
             Text("You are a \(curiosity.name)")
                 .font(.system(size: 20, weight: .bold, design: .default))
-            Image(curiosity.badge)
+            Image("\(curiosity.shortID)_badge")
                     .resizable()
                     .scaledToFit()
                     .frame(width: badgeWidth)
