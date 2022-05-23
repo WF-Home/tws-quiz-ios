@@ -12,7 +12,6 @@
 		D97C123F2826429C00051C0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97C123E2826429C00051C0A /* Preview Assets.xcassets */; };
 		D97C12492826429D00051C0A /* tws_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97C12482826429D00051C0A /* tws_appTests.swift */; };
 		D97C12532826429D00051C0A /* tws_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97C12522826429D00051C0A /* tws_appUITests.swift */; };
-		D97C12552826429D00051C0A /* tws_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97C12542826429D00051C0A /* tws_appUITestsLaunchTests.swift */; };
 		D97C12632826434A00051C0A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D97C12622826434A00051C0A /* ComposableArchitecture */; };
 		D97C12652826484300051C0A /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97C12642826484300051C0A /* AppAction.swift */; };
 		D97C1267282648BD00051C0A /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97C1266282648BD00051C0A /* AppReducer.swift */; };
@@ -31,6 +30,7 @@
 		D9C03899283B1F59004D2500 /* DefaultText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C03898283B1F59004D2500 /* DefaultText.swift */; };
 		D9C0389B283B2024004D2500 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0389A283B2024004D2500 /* DefaultButton.swift */; };
 		D9C0389D283B251D004D2500 /* Curiosity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0389C283B251D004D2500 /* Curiosity.swift */; };
+		D9C038A0283B994B004D2500 /* MockAPIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0389F283B994B004D2500 /* MockAPIRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,6 @@
 		D97C12482826429D00051C0A /* tws_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tws_appTests.swift; sourceTree = "<group>"; };
 		D97C124E2826429D00051C0A /* tws-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tws-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97C12522826429D00051C0A /* tws_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tws_appUITests.swift; sourceTree = "<group>"; };
-		D97C12542826429D00051C0A /* tws_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tws_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D97C12642826484300051C0A /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
 		D97C1266282648BD00051C0A /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		D97C126C282792F300051C0A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
@@ -77,6 +76,8 @@
 		D9C03898283B1F59004D2500 /* DefaultText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultText.swift; sourceTree = "<group>"; };
 		D9C0389A283B2024004D2500 /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 		D9C0389C283B251D004D2500 /* Curiosity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curiosity.swift; sourceTree = "<group>"; };
+		D9C0389F283B994B004D2500 /* MockAPIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIRepository.swift; sourceTree = "<group>"; };
+		D9C038A1283B9A49004D2500 /* tws-app.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "tws-app.xctestplan"; path = "tws-app.xcodeproj/tws-app.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 		D97C122B2826429A00051C0A = {
 			isa = PBXGroup;
 			children = (
+				D9C038A1283B9A49004D2500 /* tws-app.xctestplan */,
 				D97C12362826429A00051C0A /* tws-app */,
 				D97C12472826429D00051C0A /* tws-appTests */,
 				D97C12512826429D00051C0A /* tws-appUITests */,
@@ -158,7 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				D97C12522826429D00051C0A /* tws_appUITests.swift */,
-				D97C12542826429D00051C0A /* tws_appUITestsLaunchTests.swift */,
 			);
 			path = "tws-appUITests";
 			sourceTree = "<group>";
@@ -201,6 +202,7 @@
 		D97C12802828D31700051C0A /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				D9C0389E283B9933004D2500 /* Mocks */,
 				D9C03892283756AA004D2500 /* FirebaseRepository.swift */,
 			);
 			path = Repositories;
@@ -271,6 +273,14 @@
 				D9C0389A283B2024004D2500 /* DefaultButton.swift */,
 			);
 			path = ReusableComponents;
+			sourceTree = "<group>";
+		};
+		D9C0389E283B9933004D2500 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0389F283B994B004D2500 /* MockAPIRepository.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +427,7 @@
 				D9C0389D283B251D004D2500 /* Curiosity.swift in Sources */,
 				D97C1267282648BD00051C0A /* AppReducer.swift in Sources */,
 				D9C03899283B1F59004D2500 /* DefaultText.swift in Sources */,
+				D9C038A0283B994B004D2500 /* MockAPIRepository.swift in Sources */,
 				D9C0389B283B2024004D2500 /* DefaultButton.swift in Sources */,
 				D97C126D282792F300051C0A /* AppView.swift in Sources */,
 				D97C128C28331F7800051C0A /* LandingView.swift in Sources */,
@@ -443,7 +454,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97C12532826429D00051C0A /* tws_appUITests.swift in Sources */,
-				D97C12552826429D00051C0A /* tws_appUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,14 +653,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PQYWQB75M5;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wiljay.tws-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -667,7 +678,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQYWQB75M5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wiljay.tws-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
