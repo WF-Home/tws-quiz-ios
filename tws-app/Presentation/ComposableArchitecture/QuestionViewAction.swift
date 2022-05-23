@@ -6,7 +6,6 @@
 //
 indirect enum QuestionViewAction: Equatable {
     case appAction(AppAction)
-    case resetQuiz
     case selectAnswer(Int)
     case setActiveQuestion(Int)
 }

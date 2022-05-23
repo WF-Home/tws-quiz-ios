@@ -13,25 +13,32 @@ import ComposableArchitecture
 @main
 struct tws_app: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             AppView(store: Store(
                 initialState: AppState(),
                 reducer: .combine(composedAppReducer),
-                environment: appEnvironment())
+                environment: ProcessInfo.processInfo.arguments.contains("Testing") ? mockAppEnvironment() : appEnvironment() )
             )
         }
     }
     
     func appEnvironment() -> AppEnvironment {
-        let firebaseRepository = FirebaseRepository()
+        let apiRepository = FirebaseRepository()
         return AppEnvironment(
             mainQueue: .main,
-            apiRepository: firebaseRepository
+            apiRepository: apiRepository
         )
     }
     
-
+    func mockAppEnvironment() -> AppEnvironment {
+        let apiRepository = MockAPIRepository()
+        return AppEnvironment(
+            mainQueue: .main,
+            apiRepository: apiRepository
+        )
+    }
 }
 
 final class AppEnvironment {

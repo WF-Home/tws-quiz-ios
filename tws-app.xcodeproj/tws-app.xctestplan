@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "9CA41128-6C77-4D8D-A715-75A650B597AD",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:tws-app.xcodeproj",
+          "identifier" : "D97C12332826429A00051C0A",
+          "name" : "tws-app"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:tws-app.xcodeproj",
+      "identifier" : "D97C12332826429A00051C0A",
+      "name" : "tws-app"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:tws-app.xcodeproj",
+        "identifier" : "D97C12432826429D00051C0A",
+        "name" : "tws-appTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:tws-app.xcodeproj",
+        "identifier" : "D97C124D2826429D00051C0A",
+        "name" : "tws-appUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

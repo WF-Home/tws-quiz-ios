@@ -29,6 +29,7 @@ struct QuestionView: View {
                 )
                 .cornerRadius(7)
             } else {
+                // TODO: create proper error state
                 Text("No Questions Found.")
             }
         }
