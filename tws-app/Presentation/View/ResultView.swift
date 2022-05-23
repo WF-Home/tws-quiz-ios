@@ -60,3 +60,21 @@ struct ResultView: View {
         }
     }
 }
+
+#if DEBUG
+struct ResultView_Previews: PreviewProvider {
+    static var previews: some View {
+            ResultView(
+                curiosity: Curiosity(
+                    shortID: "bloom",
+                    name: "Bloom Collector",
+                    playlistID: "",
+                    mantra: "This is my mantra",
+                    resultFor: []
+                ),
+                resetQuiz: {},
+                updateBackground: {_ in}
+            )
+    }
+}
+#endif

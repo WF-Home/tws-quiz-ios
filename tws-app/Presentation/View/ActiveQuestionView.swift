@@ -36,6 +36,7 @@ struct ActiveQuestionView: View {
     }
 }
 
+#if DEBUG
 struct ActiveQuestionView_Previews: PreviewProvider {
     static var previews: some View {
         ActiveQuestionView(
@@ -51,3 +52,4 @@ struct ActiveQuestionView_Previews: PreviewProvider {
         )
     }
 }
+#endif
